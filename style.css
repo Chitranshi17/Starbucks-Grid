@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.container nav{
+    width: 100%;
+    height: 120px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(66, 62, 62);
+}
+.navbar{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-nav{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-nav img{
+    width: 15%;
+    height: auto;
+    cursor: pointer;
+}
+.left-list{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+} 
+.left-list li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.left-list li a:hover{
+    color: #006241;
+}
+.right-nav{
+    width: 25%;
+    height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+.right-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-nav a:hover{
+    color: #006241;
+}
+.right-nav span{
+    width: 60%;
+    height: auto;
+}
+.right-nav span button{
+    width: 45%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.right-nav button:nth-child(2){
+    color: white;
+    background-color: black;
+}
+.right-nav button:nth-child(2):hover{
+    background-color: rgb(77, 71, 71);
+}
+.right-nav button:first-child{
+    background-color: white;
+}
+.right-nav button:first-child:hover{
+    background-color: rgb(218, 212, 212);
+}
+
+
+
+/* Section - Css */
+
+.container section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page{
+    width: 98%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 500px 750px 750px 750px 350px 550px auto;
+    row-gap: 30px;
+    padding-top: 30px;
+}
+/* .box{
+    border: 1px solid black;
+} */
+.box:first-child{
+    background: url(/Starbucks-Grid/image/1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(2){
+    background-color: #1e3932;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-w{
+    width: 60%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.text-w h3{
+    font-size: 30px;
+    color: white;
+}
+.text-w h6{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.text-w button{
+    width: 25%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+}
+.text-w button:hover{
+    background-color: #274e43;
+    cursor: pointer;
+}
+.box:nth-child(3){
+    background-color:#eb81a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-b{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+.text-b h2{
+    color: #1e3932;
+    font-size: 55px;
+}
+.text-b h5{
+    font-size: 27px;
+    color: #1e3932;
+    text-align: center;
+}
+.text-b button{
+    width: 25%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #1e3932;
+    color: #1e3932;
+    font-weight: 600;
+}
+.text-b button:hover{
+   background-color: #c38296;
+   cursor: pointer;
+}
+.box:nth-child(4){
+    background: url(/Starbucks-Grid/image/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(5){
+    background: url(/Starbucks-Grid/image/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(6){
+    background-color:#f1ff67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:nth-child(6) .text-b button:hover{
+    background-color: #d4e068;
+    cursor: pointer;
+}
+.box:nth-child(7){
+    background-color: #fc6446;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:nth-child(7) .text-b h2{
+    color: black;
+}
+.box:nth-child(7) .text-b h5{
+    color: black;
+}
+.box:nth-child(7) .text-b button{
+    color: black;
+}
+.box:nth-child(7) .text-b button:hover{
+    background-color: #da674f;
+}
+.box:nth-child(8){
+    background: url(/Starbucks-Grid/image/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(9){
+    background: url(/Starbucks-Grid/image/5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(10){
+    background-color: #006241;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-w p{
+    color:white;
+    font-size: 23px;
+    text-align: center;
+}
+.box:nth-child(10) .text-w button:hover{
+    background-color: #044e35;
+}
+.box:nth-child(11){
+    background-color: #e1fccd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-b h3{
+    color: #1e3932;
+    font-size: 30px;
+}
+.text-b p{
+    font-size: 25px;
+    color: #1e3932;
+}
+.box:nth-child(11) .text-b button:hover{
+    background-color: #c0e3a5;
+}
+.box:nth-child(12){
+    background: url(/Starbucks-Grid/image/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(13){
+    grid-column: 1/3;
+    grid-row: 7/8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+.text-para{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-para p{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.text-para p a{
+    color: black;
+    /* text-align: center; */
+}
+.text-para p a:hover{
+    text-decoration: none;
+}
+.mid-para{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid-para p{
+    font-size: 20px;
+    color: black;
+}
+.mid-para p a{
+    color: black;
+}
+.mid-para p a:hover{
+    text-decoration: none;
+}
+.end-para{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end-para p{
+    font-size: 20px;
+}
+
+.container footer{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    border-top: 1px solid gray;
+}
+.about{
+    width: 80%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.col h5{
+    font-size: 25px;
+    color: black;
+}
+.list{
+    width: 90%;
+    height: 350px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.list li a{
+    font-size: 25px;
+    color: rgb(105, 101, 101);
+    text-decoration: none;
+}
+.list li a:hover{
+    color: black;
+}
+/* down footer */
+
+.down-footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+}
+.icon{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.icon-box:hover{
+    cursor: pointer;
+}
+.icon-box i{
+    font-size: 20px;
+    color: white;
+}
+.row ul{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.row ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+.row ul li a:hover{
+    border-bottom: 3px solid black;
+}
+.copy{
+    width: 80%;
+    height: 30px;
+}
+.copy span{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.menubar i{
+    font-size: 30px;
+    display: none;
+}
+
+
+
+
+/* Responsive for 768px - Tablet, Ipad */
