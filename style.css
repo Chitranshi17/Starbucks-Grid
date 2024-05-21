@@ -120,7 +120,7 @@
     border: 1px solid black;
 } */
 .box:first-child{
-    background: url(/Starbucks-Grid/image/1.webp);
+    background: url("./image/1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,13 +202,13 @@
    cursor: pointer;
 }
 .box:nth-child(4){
-    background: url(/Starbucks-Grid/image/2.jpg);
+    background: url("./image/2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .box:nth-child(5){
-    background: url(/Starbucks-Grid/image/3.jpg);
+    background: url("./image/3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,13 +242,13 @@
     background-color: #da674f;
 }
 .box:nth-child(8){
-    background: url(/Starbucks-Grid/image/4.jpg);
+    background: url("./image/4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .box:nth-child(9){
-    background: url(/Starbucks-Grid/image/5.webp);
+    background: url("./image/5.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +285,7 @@
     background-color: #c0e3a5;
 }
 .box:nth-child(12){
-    background: url(/Starbucks-Grid/image/6.jpg);
+    background: url("./image/6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
